@@ -1,0 +1,49 @@
+
+html{
+    background-color:rgb(217, 202, 183);
+}
+
+#menu {
+    background-color: brown;
+    text-align: right;
+    padding: 20px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+ul {
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    border: 1px solid;
+    background-color: white;
+    margin-right: 40px;
+}
+
+#foto{
+    width: 5%;
+    height: 10%;
+    float: left;
+    overflow: hidden;
+}
+
+#titulo{
+    float: left;
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+#fotocabecera{
+    width: 80%;
+    height: 450px;
+    margin-left: 5.5em;
+    padding: 2em;
+}
