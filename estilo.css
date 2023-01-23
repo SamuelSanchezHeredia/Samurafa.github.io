@@ -1,16 +1,21 @@
+html {
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+}
 
-html{
-    background-color:rgb(217, 202, 183);
+header {
+    margin-bottom: 3em;
 }
 
 #menu {
-    background-color: brown;
+    background-color: rgb(133, 174, 177);
     text-align: right;
     padding: 20px;
     padding-bottom: 15px;
     padding-top: 20px;
     overflow: hidden;
 }
+
 ul {
     text-align: right;
     list-style-type: none;
@@ -28,22 +33,44 @@ li {
     margin-right: 40px;
 }
 
-#foto{
+#foto {
     width: 5%;
     height: 10%;
     float: left;
     overflow: hidden;
 }
 
-#titulo{
+#titulo {
     float: left;
     margin-left: 40px;
     overflow: hidden;
 }
 
-#fotocabecera{
+#fotocabecera {
     width: 80%;
     height: 450px;
     margin-left: 5.5em;
     padding: 2em;
+}
+
+#formulario {
+    margin-top: 3em;
+}
+
+#mapa {
+    margin-top: 3em;
+    float: left;
+}
+
+#atencionCliente {
+    float: right;
+    border: 2px outset black;
+    padding: 1em;
+    margin-top: 8em;
+    margin-right: 4em;
+}
+
+footer{
+    margin-top: 2em;
+
 }
