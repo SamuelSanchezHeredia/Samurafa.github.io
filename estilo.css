@@ -60,6 +60,12 @@ li {
 #mapa {
     margin-top: 3em;
     float: left;
+    clear: both;
+}
+
+#direccion {
+    margin-top: 3em;
+    float: right;
 }
 
 #atencionCliente {
@@ -72,5 +78,14 @@ li {
 
 footer{
     margin-top: 2em;
+}
 
+.casillasFotter{
+
+
+
+}
+
+fieldset{
+    clear: both;
 }
