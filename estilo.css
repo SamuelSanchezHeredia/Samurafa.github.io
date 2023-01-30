@@ -4,7 +4,7 @@ html {
 }
 
 header {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 #menu {
@@ -19,10 +19,9 @@ header {
 ul {
     text-align: right;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     margin-bottom: 20px;
     margin-top: 20px;
+    font-size: 1.25em;
 }
 
 li {
@@ -53,8 +52,12 @@ li {
     padding: 2em;
 }
 
-#formulario {
-    margin-top: 3em;
+.medio{
+    width: 96%;
+    margin-left: 2em;
+    margin-right: 2em;  
+    clear: both;  
+    line-height: 1.6em;
 }
 
 #mapa {
@@ -78,14 +81,47 @@ li {
 
 footer{
     margin-top: 2em;
+    width: 96%;
+    margin-left: 2em;
+    margin-right: 2em;  
+    clear: both; 
 }
 
 .casillasFotter{
-
+    width:23%;
+    border: 2px  outset black;
+    background-color: white;
+    display:inline-table;
+    margin: 0.5em;
+    padding: 2em;
+    text-align: center;
 
 
 }
 
 fieldset{
     clear: both;
+}
+
+.fotoRedes{
+    width: 10%;
+    height: 10%;
+    margin: 1em;
+    float: inline;
+}
+
+#siguenos{
+    width: 100%;
+    clear:both;
+}
+
+#a{
+    width: 100%;
+    clear:both;
+    
+}
+
+#fotoFotter{
+    width: 20%;
+    height: 20%;
 }
