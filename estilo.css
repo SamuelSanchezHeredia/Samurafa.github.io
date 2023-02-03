@@ -5,6 +5,9 @@ html {
 
 header {
     margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
 }
 
 #menu {
@@ -46,16 +49,17 @@ li {
 }
 
 #fotocabecera {
-    width: 80%;
+    width: 83%;
     height: 450px;
     margin-left: 5.5em;
+    margin-right: 5.5em;
     padding: 2em;
 }
 
 .medio{
-    width: 96%;
-    margin-left: 2em;
-    margin-right: 2em;  
+    width: 91%;
+    margin-left: 4em;
+    margin-right: 4em;  
     clear: both;  
     line-height: 1.6em;
 }
@@ -63,7 +67,6 @@ li {
 #mapa {
     margin-top: 3em;
     float: left;
-    clear: both;
 }
 
 #direccion {
@@ -88,19 +91,14 @@ footer{
 }
 
 .casillasFotter{
-    width:23%;
+    width:18.9%;
     border: 2px  outset black;
     background-color: white;
     display:inline-table;
-    margin: 0.5em;
-    padding: 2em;
+    margin-right: 1em;
+    margin-top: 1em;
+    padding: 1.75em;
     text-align: center;
-
-
-}
-
-fieldset{
-    clear: both;
 }
 
 .fotoRedes{
@@ -110,18 +108,14 @@ fieldset{
     float: inline;
 }
 
-#siguenos{
-    width: 100%;
-    clear:both;
-}
-
-#a{
-    width: 100%;
-    clear:both;
-    
-}
-
 #fotoFotter{
-    width: 20%;
-    height: 20%;
+    width: 26.5%;
+    height: 26.5%;
+    float:right;
+    margin-top: 1em;
+}
+
+h2{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
